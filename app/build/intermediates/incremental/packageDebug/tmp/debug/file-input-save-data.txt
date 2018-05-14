@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Apr 27 18:25:09 CEST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
