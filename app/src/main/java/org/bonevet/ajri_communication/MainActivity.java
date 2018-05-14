@@ -180,7 +180,6 @@ public class MainActivity extends Activity {
                 @Override
                 public void run() {
                     btRelays.setClickable(true);
-
                 }
             }, 1700);
         } else if (status == 2) {

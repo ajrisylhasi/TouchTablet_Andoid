@@ -371,8 +371,6 @@
             android:background="@drawable/data_show"
             android:gravity="center"
             android:text="@string/vl_intensity" />
-
-
     </LinearLayout>
 
     <Button
