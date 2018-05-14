@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Touch Tablet App</string>
+    <string name="settings">Settings</string>
+    <string name="open">Lidhu</string>
+    <string name="close">Mbylle</string>
+    <string name="refresh">Refresh</string>
+    <string name="ndalur">Ndalur</string>
+    <string name="ndezur">Ndezur</string>
+    <string name="kontakt">Kontakt</string>
+    <string name="txt">Txt</string>
+
+    <string name="battery">Battery :</string>
+    <string name="vl_battery">NoN</string>
+
+    <string name="intensity">Intensity :</string>
+    <string name="vl_intensity">NoN</string>
+
+    <string name="voltage">Voltage :</string>
+    <string name="vl_voltage">NoN</string>
+
+    <string name="speed">Speed :</string>
+    <string name="vl_speed">NoN</string>
+
+    <string name="range">Range :</string>
+    <string name="vl_range">NoN</string>
+
+    <string name="rpm">Rpm :</string>
+    <string name="vl_rpm">NoN</string>
+
+    <string name="temp">Temperature :</string>
+    <string name="vl_temp">NoN</string>
+    <string name="clear">Clear</string>
+    <string name="begin">Begin</string>
+    <string name="stop">Stop</string>
+    <string name="send">Send</string>
+    <string name="button">Button</string>
+
+</resources>
