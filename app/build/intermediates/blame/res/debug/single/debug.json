@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -136,24 +136,24 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\xml_device_filter.xml.flat",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
@@ -284,16 +284,16 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -316,12 +316,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round3.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\drawable\\round3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -340,12 +340,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -388,16 +388,16 @@
         "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -428,12 +428,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
@@ -468,12 +468,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
@@ -548,40 +548,40 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color-v23\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -616,28 +616,28 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -664,20 +664,20 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -720,12 +720,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -744,12 +744,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -768,16 +768,20 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -790,10 +794,6 @@
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -856,12 +856,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
@@ -892,44 +892,44 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
@@ -1056,12 +1056,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1096,20 +1096,20 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -1140,20 +1140,20 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\anim\\abc_tooltip_enter.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
@@ -1228,12 +1228,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1260,16 +1260,16 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8b7ec111c0a990b5f827ab09efed810\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1280,12 +1280,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -1340,12 +1340,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1360,12 +1360,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1504,12 +1504,12 @@
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
-        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\Ajri Sylhasi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a0e67aba8af85c8fcd0baf20c6790ca2\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
