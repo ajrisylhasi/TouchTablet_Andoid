@@ -1,22 +1,24 @@
 package org.bonevet.ajri_communication;
 
-import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Typeface;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.RequiresApi;
+import android.support.v4.content.res.ResourcesCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-
 import android.view.View;
+import android.view.animation.RotateAnimation;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,22 +26,22 @@ import com.felhr.usbserial.UsbSerialDevice;
 import com.felhr.usbserial.UsbSerialInterface;
 
 import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import de.nitri.gauge.Gauge;
 
 @SuppressWarnings("ALL")
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     public final String ACTION_USB_PERMISSION = "org.bonevet.ajri_communication.USB_PERMISSION";
     Button startButton, stopButton, btRelays;
-    TextView vl_intensity, vl_voltage, vl_battery, vl_temp, vl_range;
+    TextView vl_intensity, vl_voltage, vl_battery, vl_temp, vl_range, vl_speed, vl_rpm;
     Integer status = 1;
     Integer i = 0;
     List<String> vlerat = new ArrayList<>();
-    String[] te_dhenat;
+    String[] te_dhenat, stringi_ndare;
     String data = null, stringi;
     UsbManager usbManager;
     UsbDevice device;
@@ -48,13 +50,14 @@ public class MainActivity extends Activity {
     int speed_value, rpm_value;
     Gauge gauge, gauge2;
     private int currentApiVersion;
+    ImageView batteryPhoto;
 
     UsbSerialInterface.UsbReadCallback mCallback = new UsbSerialInterface.UsbReadCallback() { //Defining a Callback which triggers whenever data is read.
-        @RequiresApi(api = Build.VERSION_CODES.O)
         @Override
         public void onReceivedData(byte[] arg0) {
             try {
                 data = new String(arg0, "UTF-8");
+
                 vlerat.add(data);
                 StringBuilder sb = new StringBuilder();
                 for (String s : vlerat) {
@@ -73,10 +76,17 @@ public class MainActivity extends Activity {
                                 vl_battery.setText(te_dhenat[2] + " %");
                                 vl_temp.setText(te_dhenat[3] + " °C");
                                 vl_range.setText(te_dhenat[4] + " km");
-                                speed_value= Integer.parseInt(te_dhenat[5]);
-                                rpm_value= Integer.parseInt(te_dhenat[6]);
-                                gauge.moveToValue(speed_value);
-                                gauge2.moveToValue(rpm_value);
+                                vl_speed.setText(te_dhenat[5] + " km/h");
+                                vl_rpm.setText(te_dhenat[6] + " rpm");
+
+//                                try {
+//                                    speed_value = Integer.parseInt(te_dhenat[5]);
+//                                    rpm_value = Integer.parseInt(te_dhenat[6]);
+//                                }catch (UnknownError e){
+//
+//                                }
+//                                gauge.moveToValue(speed_value);
+//                                gauge2.moveToValue(rpm_value);
                             }
                         });
                     } catch (InterruptedException e) {
@@ -150,7 +160,7 @@ public class MainActivity extends Activity {
                 } else {
                     onClickStop(stopButton);
                     Toast.makeText(context, "Device Closed", Toast.LENGTH_SHORT).show();
-                    btRelays.setText("Ndalur");
+                    btRelays.setText("OFF");
                     btRelays.setBackgroundResource(R.drawable.round1);
                     serialPort.write("0".getBytes());
                     status = 1;
@@ -166,13 +176,21 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         usbManager = (UsbManager) getSystemService(USB_SERVICE);
         startButton = findViewById(R.id.buttonOpen);
-        btRelays = findViewById(R.id.btRelays);
+        btRelays = findViewById(R.id.qilsi);
         stopButton = findViewById(R.id.buttonClose);
         vl_intensity = findViewById(R.id.vl_intensity);
         vl_voltage = findViewById(R.id.vl_voltage);
         vl_battery = findViewById(R.id.vl_battery);
         vl_temp = findViewById(R.id.vl_temp);
         vl_range = findViewById(R.id.vl_range);
+        vl_speed = findViewById(R.id.vl_speed);
+        vl_rpm = findViewById(R.id.vl_rpm);
+        batteryPhoto = findViewById(R.id.foto_battery);
+        batteryPhoto.setRotation(90);
+        Typeface typeface = ResourcesCompat.getFont(this, R.font.digital);
+        vl_speed.setTypeface(typeface);
+        vl_rpm.setTypeface(typeface);
+
 
         setUiEnabled(false);
 
@@ -232,9 +250,23 @@ public class MainActivity extends Activity {
         }
     }
 
+    private void rotate(float degree) {
+        final RotateAnimation rotateAnim = new RotateAnimation(0.0f, degree,
+                RotateAnimation.RELATIVE_TO_SELF, 0.5f,
+                RotateAnimation.RELATIVE_TO_SELF, 0.5f);
+
+        rotateAnim.setDuration(0);
+        rotateAnim.setFillAfter(true);
+        batteryPhoto.startAnimation(rotateAnim);
+    }
+    public void setFontTextView(Context c, TextView name) {
+        Typeface font = Typeface.createFromAsset(c.getAssets(),"font/ralewayregular.ttf");
+        name.setTypeface(font);
+    }
+
     public void onClickSwitch(View v) {
         if (status == 1) {
-            btRelays.setText("Kontakt");
+            btRelays.setText("CONTACT");
             btRelays.setBackgroundResource(R.drawable.round2);
             serialPort.write("1".getBytes());
             status = 2;
@@ -247,7 +279,7 @@ public class MainActivity extends Activity {
                 }
             }, 1700);
         } else if (status == 2) {
-            btRelays.setText("Ndezur");
+            btRelays.setText("ON");
             btRelays.setBackgroundResource(R.drawable.round3);
             serialPort.write("2".getBytes());
             status = 3;
@@ -260,7 +292,7 @@ public class MainActivity extends Activity {
                 }
             }, 1700);
         } else {
-            btRelays.setText("Ndalur");
+            btRelays.setText("OFF");
             btRelays.setBackgroundResource(R.drawable.round1);
             serialPort.write("0".getBytes());
             status = 1;
@@ -306,7 +338,7 @@ public class MainActivity extends Activity {
     public void onClickStop(View view) {
         setUiEnabled(false);
         serialPort.close();
-        btRelays.setText("Ndalur");
+        btRelays.setText("OFF");
         btRelays.setBackgroundResource(R.drawable.round1);
         serialPort.write("0".getBytes());
         status = 1;

@@ -1,249 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/constraint"
+
     tools:context="org.bonevet.ajri_communication.MainActivity">
 
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="123dp"
+    <TextView
+        android:id="@+id/vl_rpm"
+        android:layout_width="235dp"
+        android:layout_height="226dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintVertical_bias="0.894"
+        android:gravity="center"
+        android:textSize="70dp"
+        android:text="NoN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintHorizontal_bias="0.883"
         gauge:layout_constraintBottom_toBottomOf="parent"
         gauge:layout_constraintEnd_toEndOf="parent"
         gauge:layout_constraintStart_toStartOf="parent"
         gauge:layout_constraintTop_toTopOf="parent"
-        >
+        gauge:layout_constraintVertical_bias="0.498" />
 
-        <TextView
-            android:id="@+id/range"
-            android:layout_width="83dp"
-            android:layout_height="18dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="18dp"
-            android:text="@string/range"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            gauge:layout_constraintBottom_toBottomOf="parent"
-            gauge:layout_constraintEnd_toEndOf="parent"
-            gauge:layout_constraintStart_toStartOf="parent"
-            gauge:layout_constraintTop_toTopOf="parent"
-            gauge:layout_constraintVertical_bias="0.723" />
-
-        <TextView
-            android:id="@+id/vl_range"
-            android:layout_width="118dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/data_show"
-            android:gravity="center"
-            android:text="@string/vl_intensity" />
-    </LinearLayout>
-
-    <de.nitri.gauge.Gauge
-        android:id="@+id/gauge2"
-        android:layout_width="458dp"
-        android:layout_height="548dp"
-        android:layout_gravity="center"
+    <TextView
+        android:id="@+id/vl_temp"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:text="@string/vl_intensity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintHorizontal_bias="0.969"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728"
-        gauge:faceColor="@color/anthracite"
-        gauge:maxValue="8000"
-        gauge:minValue="0"
-        gauge:scaleColor="@color/gray"
-        gauge:totalNicks="110"
-        gauge:upperText="RPM"
-        gauge:valuePerNick="100" />
-
-    <de.nitri.gauge.Gauge
-        android:id="@+id/gauge"
-        android:layout_width="472dp"
-        android:layout_height="458dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintHorizontal_bias="0.061"
-        app:layout_constraintVertical_bias="0.731"
-        gauge:faceColor="@color/anthracite"
-        gauge:layout_constraintBottom_toBottomOf="parent"
-        gauge:layout_constraintEnd_toEndOf="parent"
-        gauge:layout_constraintStart_toStartOf="parent"
-        gauge:layout_constraintTop_toTopOf="parent"
-        gauge:maxValue="160"
-        gauge:minValue="0"
-        gauge:scaleColor="@color/gray"
-        gauge:totalNicks="110"
-        gauge:upperText="Speed"
-        gauge:valuePerNick="2" />
-
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="123dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023">
-
-        <TextView
-            android:id="@+id/temp"
-            android:layout_width="wrap_content"
-            android:layout_height="18dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="18dp"
-            android:text="@string/temp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.723" />
-
-        <TextView
-            android:id="@+id/vl_temp"
-            android:layout_width="118dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/data_show"
-            android:gravity="center"
-            android:text="@string/vl_temp" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="123dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.69"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025">
-
-        <TextView
-            android:id="@+id/voltage"
-            android:layout_width="83dp"
-            android:layout_height="18dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="18dp"
-            android:text="@string/voltage"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.723" />
-
-        <TextView
-            android:id="@+id/vl_voltage"
-            android:layout_width="118dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/data_show"
-            android:gravity="center"
-            android:text="@string/vl_voltage" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="123dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029">
-
-        <TextView
-            android:id="@+id/battery"
-            android:layout_width="83dp"
-            android:layout_height="18dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="18dp"
-            android:text="@string/battery"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.723" />
-
-        <TextView
-            android:id="@+id/vl_battery"
-            android:layout_width="118dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/data_show"
-            android:gravity="center"
-            android:text="@string/vl_battery" />
-
-
-    </LinearLayout>
+        app:layout_constraintVertical_bias="0.957" />
 
     <Button
         android:id="@+id/buttonOpen"
@@ -276,62 +78,186 @@
         android:text="@string/close"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintHorizontal_bias="0.267"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.033" />
 
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="123dp"
+    <TextView
+        android:id="@+id/vl_battery"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:orientation="vertical"
+        android:text="@string/vl_intensity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintHorizontal_bias="0.963"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029">
+        app:layout_constraintVertical_bias="0.089999974" />
 
-        <TextView
-            android:id="@+id/intensity"
-            android:layout_width="83dp"
-            android:layout_height="18dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="18dp"
-            android:text="@string/intensity"
-            android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.723" />
+    <TextView
+        android:id="@+id/vl_range"
+        style="@style/AppTheme"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/vl_intensity"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
 
-        <TextView
-            android:id="@+id/vl_intensity"
-            android:layout_width="118dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/data_show"
-            android:gravity="center"
-            android:text="@string/vl_intensity" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/range"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/range"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:id="@+id/vl_voltage"
+        style="@style/AppTheme"
+        android:layout_width="184dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/vl_voltage"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <TextView
+        android:id="@+id/voltage"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/voltage"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintVertical_bias="0.862"
+        gauge:layout_constraintBottom_toBottomOf="parent"
+        gauge:layout_constraintEnd_toEndOf="parent"
+        gauge:layout_constraintStart_toStartOf="parent"
+        gauge:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vl_intensity"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/vl_intensity"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/intensity"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intensity"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge2"
+        style="@style/AppTheme"
+        android:layout_width="420dp"
+        android:layout_height="412dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41000003"
+        gauge:faceColor="@color/anthracite"
+        gauge:maxValue="8000"
+        gauge:minValue="0"
+        gauge:scaleColor="@color/gray"
+        gauge:totalNicks="110"
+        gauge:upperText="RPM"
+        gauge:valuePerNick="100" />
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge"
+        style="@style/AppTheme"
+        android:layout_width="420dp"
+        android:layout_height="412dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintVertical_bias="0.41000003"
+        gauge:faceColor="@color/anthracite"
+        gauge:layout_constraintBottom_toBottomOf="parent"
+        gauge:layout_constraintEnd_toEndOf="parent"
+        gauge:layout_constraintStart_toStartOf="parent"
+        gauge:layout_constraintTop_toTopOf="parent"
+        gauge:maxValue="160"
+        gauge:minValue="0"
+        gauge:scaleColor="@color/gray"
+        gauge:totalNicks="110"
+        gauge:upperText="Speed"
+        gauge:valuePerNick="2" />
 
     <Button
-        android:id="@+id/btRelays"
-        android:layout_width="139dp"
-        android:layout_height="139dp"
-        android:layout_alignTop="@+id/buttonOpen"
+        android:id="@+id/qilsi"
+        style="@style/AppTheme"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:onClick="onClickSwitch"
@@ -343,7 +269,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.015" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -358,6 +284,59 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="130dp" />
+
+    <ImageView
+        android:id="@+id/foto-battery"
+        android:layout_width="104dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="bateria"
+        android:src="@drawable/ic_discharged_battery_interface_symbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="temperatura"
+        android:src="@drawable/thermometer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/vl_speed"
+        android:layout_width="235dp"
+        android:layout_height="226dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="70dp"
+        android:text="Non"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
 
 </android.support.constraint.ConstraintLayout>
