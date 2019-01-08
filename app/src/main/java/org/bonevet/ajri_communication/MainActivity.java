@@ -1,14 +1,21 @@
 package org.bonevet.ajri_communication;
 
+import android.app.ActionBar;
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
+import android.media.VolumeShaper;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -16,9 +23,11 @@ import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +38,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import de.nitri.gauge.Gauge;
@@ -36,7 +46,7 @@ import de.nitri.gauge.Gauge;
 @SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
     public final String ACTION_USB_PERMISSION = "org.bonevet.ajri_communication.USB_PERMISSION";
-    Button startButton, stopButton, btRelays;
+    Button startButton, stopButton, btLang;
     TextView vl_intensity, vl_voltage, vl_battery, vl_temp, vl_range, vl_speed, vl_rpm;
     Integer status = 1;
     Integer i = 0;
@@ -51,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
     Gauge gauge, gauge2;
     private int currentApiVersion;
     ImageView batteryPhoto;
+    private static SeekBar seek_bar;
+    private static TextView text_view;
 
     UsbSerialInterface.UsbReadCallback mCallback = new UsbSerialInterface.UsbReadCallback() { //Defining a Callback which triggers whenever data is read.
         @Override
@@ -65,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 stringi = sb.toString();
                 if (data.contains("!")) {
-                    te_dhenat = stringi.split("-");
+
+                    te_dhenat = stringi.split("=");
                     try {
                         Thread.sleep(0);
                         runOnUiThread(new Runnable() {
@@ -96,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
+                e.printStackTrace(); 
             }
         }
     };
@@ -117,13 +130,8 @@ public class MainActivity extends AppCompatActivity {
                             serialPort.setStopBits(UsbSerialInterface.STOP_BITS_1);
                             serialPort.setParity(UsbSerialInterface.PARITY_NONE);
                             serialPort.setFlowControl(UsbSerialInterface.FLOW_CONTROL_OFF);
-                            btRelays.setClickable(false);
-                            new Handler().postDelayed(new Runnable() {
-                                @Override
-                                public void run() {
-                                    btRelays.setClickable(true);
-                                }
-                            }, 1700);
+                            serialPort.read(mCallback);
+                            seek_bar.setEnabled(true);
                             Toast.makeText(context, "Device Open", Toast.LENGTH_SHORT).show();
                         } else {
                             Log.d("SERIAL", "PORT NOT OPEN");
@@ -158,12 +166,10 @@ public class MainActivity extends AppCompatActivity {
                 if (serialPort == null) {
 
                 } else {
-                    onClickStop(stopButton);
                     Toast.makeText(context, "Device Closed", Toast.LENGTH_SHORT).show();
-                    btRelays.setText("OFF");
-                    btRelays.setBackgroundResource(R.drawable.round1);
                     serialPort.write("0".getBytes());
-                    status = 1;
+                    seek_bar.setEnabled(false);
+                    seek_bar.setProgress(0);
                 }
             }
         }
@@ -176,7 +182,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         usbManager = (UsbManager) getSystemService(USB_SERVICE);
         startButton = findViewById(R.id.buttonOpen);
-        btRelays = findViewById(R.id.qilsi);
+        seek_bar = (SeekBar)findViewById(R.id.seekBar);
+        btLang = findViewById(R.id.lang);
         stopButton = findViewById(R.id.buttonClose);
         vl_intensity = findViewById(R.id.vl_intensity);
         vl_voltage = findViewById(R.id.vl_voltage);
@@ -190,6 +197,9 @@ public class MainActivity extends AppCompatActivity {
         Typeface typeface = ResourcesCompat.getFont(this, R.font.digital);
         vl_speed.setTypeface(typeface);
         vl_rpm.setTypeface(typeface);
+        seebbarr();
+        seek_bar.setEnabled(false);
+
 
 
         setUiEnabled(false);
@@ -230,9 +240,53 @@ public class MainActivity extends AppCompatActivity {
         filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
         registerReceiver(broadcastReceiver, filter);
 
-        btRelays.setBackgroundResource(R.drawable.round1);
+        btLang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                showLanguageDialog();
+            }
+        });
 
     }
+
+//    private void showLanguageDialog() {
+//        final String[] listaGjuheve = {"Shqip","English"};
+//        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+//        mBuilder.setTitle("Choose Language...");
+//        mBuilder.setSingleChoiceItems(listaGjuheve, -1, new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int i) {
+//                if (i==0){
+//                    setLocale("sq");
+//                    recreate();
+//                }
+//                else if (i==1){
+//                    setLocale("en");
+//                    recreate();
+//                }
+//                dialog.dismiss();
+//            }
+//        });
+//        AlertDialog mDialog = mBuilder.create();
+//        mDialog.show();
+//    }
+
+//    private void setLocale(String lang) {
+//        Locale locale = new Locale(lang);
+//        Locale.setDefault(Locale.forLanguageTag(lang));
+//        Configuration config = new Configuration();
+//        config.locale = locale;
+//        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+//        SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
+//        editor.putString("My_Lang", lang);
+//        editor.apply();
+//    }
+
+//    public void loadLocale(){
+//        SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+//        String language = prefs.getString("My_Lang","");
+//        setLocale(language);
+//    }
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus)
@@ -264,52 +318,39 @@ public class MainActivity extends AppCompatActivity {
         name.setTypeface(font);
     }
 
-    public void onClickSwitch(View v) {
-        if (status == 1) {
-            btRelays.setText("CONTACT");
-            btRelays.setBackgroundResource(R.drawable.round2);
-            serialPort.write("1".getBytes());
-            status = 2;
-            btRelays.setClickable(false);
-            serialPort.read(mCallback);
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    btRelays.setClickable(true);
+    public void seebbarr( ){
+
+        text_view =(TextView)findViewById(R.id.textView);
+        text_view.setText("Covered : " + seek_bar.getProgress() + " / " +seek_bar.getMax());
+
+        seek_bar.setOnSeekBarChangeListener(
+                new SeekBar.OnSeekBarChangeListener() {
+
+                    int progress_value;
+                    @Override
+                    public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                        progress_value = progress;
+                    }
+
+                    @Override
+                    public void onStartTrackingTouch(SeekBar seekBar) {
+
+                    }
+
+                    @Override
+                    public void onStopTrackingTouch(SeekBar seekBar) {
+                        serialPort.write(Integer.toString(progress_value).getBytes());
+                        text_view.setText("Covered : " + progress_value + " / " +seek_bar.getMax());
+                    }
                 }
-            }, 1700);
-        } else if (status == 2) {
-            btRelays.setText("ON");
-            btRelays.setBackgroundResource(R.drawable.round3);
-            serialPort.write("2".getBytes());
-            status = 3;
-            btRelays.setClickable(false);
-            serialPort.read(mCallback);
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    btRelays.setClickable(true);
-                }
-            }, 1700);
-        } else {
-            btRelays.setText("OFF");
-            btRelays.setBackgroundResource(R.drawable.round1);
-            serialPort.write("0".getBytes());
-            status = 1;
-            btRelays.setClickable(false);
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    btRelays.setClickable(true);
-                }
-            }, 1700);
-        }
+        );
+
     }
 
     public void setUiEnabled(boolean bool) {
         startButton.setEnabled(!bool);
+        btLang.setEnabled(!bool);
         stopButton.setEnabled(bool);
-        btRelays.setEnabled(bool);
     }
 
     public void onClickStart(View view) {
@@ -337,11 +378,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickStop(View view) {
         setUiEnabled(false);
-        serialPort.close();
-        btRelays.setText("OFF");
-        btRelays.setBackgroundResource(R.drawable.round1);
         serialPort.write("0".getBytes());
-        status = 1;
+        serialPort.close();
     }
 
 }

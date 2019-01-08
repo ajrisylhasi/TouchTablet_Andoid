@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Touch Tablet App</string>
+    <string name="app_name" translatable="false">Touch Tablet App</string>
     <string name="settings">Settings</string>
     <string name="open">OPEN</string>
     <string name="close">CLOSE</string>
@@ -35,5 +35,6 @@
     <string name="stop">Stop</string>
     <string name="send">Send</string>
     <string name="button">Button</string>
+    <string name="lang">Language</string>
 
 </resources>
