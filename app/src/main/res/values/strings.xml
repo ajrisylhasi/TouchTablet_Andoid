@@ -10,7 +10,7 @@
     <string name="txt">Txt</string>
 
     <string name="battery">BATTERY</string>
-    <string name="vl_battery">NoN</string>
+    <string name="vl_battery">0 %</string>
 
     <string name="intensity">INTESITY</string>
     <string name="vl_intensity">NoN</string>
@@ -19,7 +19,7 @@
     <string name="vl_voltage">NoN</string>
 
     <string name="speed">SPEED</string>
-    <string name="vl_speed">NoN</string>
+    <string name="vl_speed">0 km/h</string>
 
     <string name="range">RANGE</string>
     <string name="vl_range">NoN</string>
@@ -28,7 +28,7 @@
     <string name="vl_rpm">NoN</string>
 
     <string name="temp">TEMPERATURE</string>
-    <string name="vl_temp">NoN</string>
+    <string name="vl_temp">0 °C</string>
 
     <string name="clear">Clear</string>
     <string name="begin">Begin</string>
@@ -36,5 +36,7 @@
     <string name="send">Send</string>
     <string name="button">Button</string>
     <string name="lang">Language</string>
+    <string name="bateria">bateria</string>
+    <string name="temperatura">temperatura</string>
 
 </resources>

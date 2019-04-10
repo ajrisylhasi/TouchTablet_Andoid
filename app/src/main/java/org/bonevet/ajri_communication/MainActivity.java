@@ -1,21 +1,15 @@
 package org.bonevet.ajri_communication;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.app.AlertDialog;
+
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
-import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
-import android.media.VolumeShaper;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -23,10 +17,9 @@ import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
-import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,7 +31,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 import de.nitri.gauge.Gauge;
@@ -48,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
     public final String ACTION_USB_PERMISSION = "org.bonevet.ajri_communication.USB_PERMISSION";
     Button startButton, stopButton, btLang;
     TextView vl_intensity, vl_voltage, vl_battery, vl_temp, vl_range, vl_speed, vl_rpm;
-    Integer status = 1;
+    ProgressBar progressBar;
+    ImageView image;
+    Integer status = 1, bat=0;
+    Handler handler;
     Integer i = 0;
     List<String> vlerat = new ArrayList<>();
     String[] te_dhenat, stringi_ndare;
@@ -57,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     UsbDevice device;
     UsbSerialDevice serialPort;
     UsbDeviceConnection connection;
+    Runnable runnable;
     int speed_value, rpm_value;
     Gauge gauge, gauge2;
     private int currentApiVersion;
@@ -77,31 +73,19 @@ public class MainActivity extends AppCompatActivity {
                 }
                 stringi = sb.toString();
                 if (data.contains("!")) {
-
                     te_dhenat = stringi.split("=");
                     try {
                         Thread.sleep(0);
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                vl_intensity.setText(te_dhenat[0] + " A");
-                                vl_voltage.setText(te_dhenat[1] + " V");
-                                vl_battery.setText(te_dhenat[2] + " %");
-                                vl_temp.setText(te_dhenat[3] + " °C");
-                                vl_range.setText(te_dhenat[4] + " km");
-                                vl_speed.setText(te_dhenat[5] + " km/h");
-                                vl_rpm.setText(te_dhenat[6] + " rpm");
+                                vl_battery.setText(te_dhenat[1] + " %");
+                                vl_temp.setText(te_dhenat[2] + " °C");
+                                vl_speed.setText(te_dhenat[3] + " km/h");
+                                bat = Integer.parseInt(te_dhenat[1]);
 
-//                                try {
-//                                    speed_value = Integer.parseInt(te_dhenat[5]);
-//                                    rpm_value = Integer.parseInt(te_dhenat[6]);
-//                                }catch (UnknownError e){
-//
-//                                }
-//                                gauge.moveToValue(speed_value);
-//                                gauge2.moveToValue(rpm_value);
                             }
-                        });
+                            });
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -109,10 +93,11 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             } catch (UnsupportedEncodingException e) {
-                e.printStackTrace(); 
+                e.printStackTrace();
             }
         }
     };
+
 
     private final BroadcastReceiver broadcastReceiver = new BroadcastReceiver() { //Broadcast Receiver to automatically start and stop the Serial connection.
         @Override
@@ -158,15 +143,16 @@ public class MainActivity extends AppCompatActivity {
                             connection = null;
                             device = null;
                         }
-                        if (!keep)
+                        if (!keep) {
                             break;
+                        }
                     }
                 }
             } else if (intent.getAction().equals(UsbManager.ACTION_USB_DEVICE_DETACHED)) {
                 if (serialPort == null) {
 
                 } else {
-                    Toast.makeText(context, "Device Closed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Device Closed", Toast.LENGTH_SHORT).show()  ;
                     serialPort.write("0".getBytes());
                     seek_bar.setEnabled(false);
                     seek_bar.setProgress(0);
@@ -182,25 +168,39 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         usbManager = (UsbManager) getSystemService(USB_SERVICE);
         startButton = findViewById(R.id.buttonOpen);
+        image = (ImageView) findViewById(R.id.image);
         seek_bar = (SeekBar)findViewById(R.id.seekBar);
-        btLang = findViewById(R.id.lang);
         stopButton = findViewById(R.id.buttonClose);
-        vl_intensity = findViewById(R.id.vl_intensity);
-        vl_voltage = findViewById(R.id.vl_voltage);
         vl_battery = findViewById(R.id.vl_battery);
         vl_temp = findViewById(R.id.vl_temp);
-        vl_range = findViewById(R.id.vl_range);
         vl_speed = findViewById(R.id.vl_speed);
-        vl_rpm = findViewById(R.id.vl_rpm);
-        batteryPhoto = findViewById(R.id.foto_battery);
-        batteryPhoto.setRotation(90);
         Typeface typeface = ResourcesCompat.getFont(this, R.font.digital);
         vl_speed.setTypeface(typeface);
-        vl_rpm.setTypeface(typeface);
         seebbarr();
         seek_bar.setEnabled(false);
 
+        runnable = new Runnable() {
+            @Override
+            public void run() {
+                if (bat < 25) {
+                    image.setImageResource(R.drawable.battery_10);
+                }
+                if (bat < 50 && bat >= 25) {
+                    image.setImageResource(R.drawable.battery_45);
+                }
+                if (bat < 75 && bat >= 50) {
+                    image.setImageResource(R.drawable.battery_75);
+                }
+                if (bat >= 75) {
+                    image.setImageResource(R.drawable.battery_100);
+                }
+                handler.postDelayed(runnable, 500);
+            }
 
+            ;
+        };
+        handler = new Handler();
+        handler.postDelayed(runnable,0);
 
         setUiEnabled(false);
 
@@ -230,9 +230,6 @@ public class MainActivity extends AppCompatActivity {
                     });
         }
 
-        gauge = findViewById(R.id.gauge);
-        gauge2 = findViewById(R.id.gauge2);
-
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(ACTION_USB_PERMISSION);
@@ -240,53 +237,8 @@ public class MainActivity extends AppCompatActivity {
         filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
         registerReceiver(broadcastReceiver, filter);
 
-        btLang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                showLanguageDialog();
-            }
-        });
 
     }
-
-//    private void showLanguageDialog() {
-//        final String[] listaGjuheve = {"Shqip","English"};
-//        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
-//        mBuilder.setTitle("Choose Language...");
-//        mBuilder.setSingleChoiceItems(listaGjuheve, -1, new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int i) {
-//                if (i==0){
-//                    setLocale("sq");
-//                    recreate();
-//                }
-//                else if (i==1){
-//                    setLocale("en");
-//                    recreate();
-//                }
-//                dialog.dismiss();
-//            }
-//        });
-//        AlertDialog mDialog = mBuilder.create();
-//        mDialog.show();
-//    }
-
-//    private void setLocale(String lang) {
-//        Locale locale = new Locale(lang);
-//        Locale.setDefault(Locale.forLanguageTag(lang));
-//        Configuration config = new Configuration();
-//        config.locale = locale;
-//        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-//        SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
-//        editor.putString("My_Lang", lang);
-//        editor.apply();
-//    }
-
-//    public void loadLocale(){
-//        SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
-//        String language = prefs.getString("My_Lang","");
-//        setLocale(language);
-//    }
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus)
@@ -304,24 +256,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void rotate(float degree) {
-        final RotateAnimation rotateAnim = new RotateAnimation(0.0f, degree,
-                RotateAnimation.RELATIVE_TO_SELF, 0.5f,
-                RotateAnimation.RELATIVE_TO_SELF, 0.5f);
-
-        rotateAnim.setDuration(0);
-        rotateAnim.setFillAfter(true);
-        batteryPhoto.startAnimation(rotateAnim);
-    }
     public void setFontTextView(Context c, TextView name) {
         Typeface font = Typeface.createFromAsset(c.getAssets(),"font/ralewayregular.ttf");
         name.setTypeface(font);
     }
 
     public void seebbarr( ){
-
-        text_view =(TextView)findViewById(R.id.textView);
-        text_view.setText("Covered : " + seek_bar.getProgress() + " / " +seek_bar.getMax());
 
         seek_bar.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener() {
@@ -338,9 +278,20 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     @Override
-                    public void onStopTrackingTouch(SeekBar seekBar) {
+                    public void onStopTrackingTouch(final SeekBar seekBar) {
                         serialPort.write(Integer.toString(progress_value).getBytes());
-                        text_view.setText("Covered : " + progress_value + " / " +seek_bar.getMax());
+                        seekBar.setEnabled(false);
+                        Handler h = new Handler();
+                        h.postDelayed(new Runnable() {
+
+                            @Override
+                            public void run() {
+                                seekBar.setEnabled(true);
+                            }
+
+                        }, 1500);
+
+
                     }
                 }
         );
@@ -349,7 +300,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void setUiEnabled(boolean bool) {
         startButton.setEnabled(!bool);
-        btLang.setEnabled(!bool);
+
+
+
         stopButton.setEnabled(bool);
     }
 

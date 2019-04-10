@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Software\\TouchTabletApp\\Ajri_Communication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Project\\Programim\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\Ajri Sylhasi\\Desktop\\TouchTablet_Software\\TouchTabletApp\\Ajri_Communication\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "4,4",

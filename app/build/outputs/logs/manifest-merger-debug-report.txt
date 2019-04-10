@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a0e67aba8af85c8fcd0baf20c6790ca2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1d97b6d33b30c98ce4a5c39657c122c7\AndroidManifest.xml:2:1-11:12
@@ -18,31 +18,31 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ajri Sylhasi\.
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3910203cc1cb8a5d0a6ecdda2cdd3b88\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\156f769e0579ad9a06ab9fb7c417e346\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2bb88cd02801c945182d9a876e89dfa3\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:4:5-45
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.usb.host
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:6:5-62
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:6:5-62
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:6:19-59
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:6:19-59
 application
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:8:5-38:19
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:8:5-38:19
 MERGED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1d97b6d33b30c98ce4a5c39657c122c7\AndroidManifest.xml:9:5-20
@@ -52,53 +52,53 @@ MERGED from [com.github.anastr:speedviewlib:1.3.0] C:\Users\Ajri Sylhasi\.gradle
 	android:supportsRtl
 		ADDED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:10:9-41
 	tools:ignore
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:12:9-33
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:12:9-33
 	android:allowBackup
 		ADDED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:11:9-40
 activity#org.bonevet.ajri_communication.MainActivity
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:14:9-35:20
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:14:9-35:20
 	android:screenOrientation
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:18:13-56
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:18:13-56
 	android:label
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:16:13-45
 	android:launchMode
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:17:13-44
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:17:13-44
 	android:windowSoftInputMode
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:19:13-52
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:19:13-52
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:24:27-74
 intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:27:13-29:29
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:27:13-29:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:28:17-90
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:28:17-90
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:28:25-87
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:28:25-87
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:31:13-33:57
+ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:31:13-33:57
 	android:resource
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:33:17-54
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:33:17-54
 	android:name
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:32:17-79
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml:32:17-79
 uses-sdk
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 MERGED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.Pygmalion69:Gauge:1.2] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\Gauge-1.2.aar\377d858fe2f0466c821f93a9775af617\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a0e67aba8af85c8fcd0baf20c6790ca2\AndroidManifest.xml:20:5-44
@@ -127,13 +127,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\156f769e0579ad9a06ab9fb7c417e346\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2bb88cd02801c945182d9a876e89dfa3\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ajri Sylhasi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2bb88cd02801c945182d9a876e89dfa3\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Project\Programim\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ajri Sylhasi\Desktop\TouchTablet_Software\TouchTabletApp\Ajri_Communication\app\src\main\AndroidManifest.xml
